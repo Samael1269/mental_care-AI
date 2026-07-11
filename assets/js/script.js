@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     async function sendMessage(overrideText = null) {
         let text = "";
-        if (overrideText !== null) {
+        if (overrideText !== null && typeof overrideText === 'string') {
             text = overrideText;
         } else {
             text = messageInput.value.trim();
