@@ -25,13 +25,9 @@ A responsive, mobile-first chatbot interface designed for mental health support.
    Copy the `mental_care-AI` folder into your XAMPP installation directory under the `htdocs` folder:
    * **Windows Path**: `C:\xampp\htdocs\mental_care-AI\`
 
-2. **Configure API Key**:
-   * Open the `.env` file inside the project directory.
-   * Replace `your_deepseek_api_key_here` with your actual DeepSeek API key:
-     ```ini
-     DEEPSEEK_API_KEY=sk-your-actual-api-key-here
-     ```
-   * Save the file.
+2. **Configure API Key (Optional)**:
+   * The DeepSeek API key is already pre-configured and hardcoded in `api_handler.php`, so the chatbot is ready to run immediately.
+   * If you want to update it in the future, you can edit it directly in `api_handler.php` or define it in a `.env` file.
 
 3. **Start Apache**:
    * Open the **XAMPP Control Panel**.
