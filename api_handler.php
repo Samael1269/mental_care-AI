@@ -66,7 +66,7 @@ function loadEnv($filePath) {
 loadEnv(__DIR__ . '/.env');
 
 // Retrieve variables or set default values
-$apiKey = getenv('DEEPSEEK_API_KEY') ?: ($_ENV['DEEPSEEK_API_KEY'] ?? null);
+$apiKey = 'sk-8946deaab94b4ece998b640243f253b9';
 $apiUrl = getenv('DEEPSEEK_API_URL') ?: ($_ENV['DEEPSEEK_API_URL'] ?? 'https://api.deepseek.com/chat/completions');
 
 // Check if the API key is configured
