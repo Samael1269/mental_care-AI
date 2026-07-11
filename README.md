@@ -1,11 +1,11 @@
-# MentalCare AI Chatbot
+# MentalCare AI Chatbot (mental_care-AI)
 
 A responsive, mobile-first chatbot interface designed for mental health support. Built with a premium, calming design system (sage greens and soft blues), strict adherence to Human-Computer Interaction (HCI) guidelines, and secure server-side cURL relays to the DeepSeek API using PHP.
 
 ## File Structure
 
 ```text
-/mental-health-bot/
+/mental_care-AI/
 ├── index.php                  # Main frontend interface & layout
 ├── api_handler.php            # Secure server-side cURL endpoint
 ├── .env                       # API Configuration file (ignored in production VCS)
@@ -22,8 +22,8 @@ A responsive, mobile-first chatbot interface designed for mental health support.
 ### Option 1: Local XAMPP Environment (Recommended)
 
 1. **Move Project to htdocs**:
-   Copy the `mental-health-bot` folder into your XAMPP installation directory under the `htdocs` folder:
-   * **Windows Path**: `C:\xampp\htdocs\mental-health-bot\`
+   Copy the `mental_care-AI` folder into your XAMPP installation directory under the `htdocs` folder:
+   * **Windows Path**: `C:\xampp\htdocs\mental_care-AI\`
 
 2. **Configure API Key**:
    * Open the `.env` file inside the project directory.
@@ -39,7 +39,7 @@ A responsive, mobile-first chatbot interface designed for mental health support.
 
 4. **Access the Chatbot**:
    * Open your web browser and navigate to:
-     `http://localhost/mental-health-bot/`
+     `http://localhost/mental_care-AI/`
 
 ---
 
@@ -47,7 +47,7 @@ A responsive, mobile-first chatbot interface designed for mental health support.
 
 If you have PHP installed globally on your machine, you can run the application directly from the command line without XAMPP:
 
-1. Open a terminal/command prompt in the `mental-health-bot` directory.
+1. Open a terminal/command prompt in the `mental_care-AI` directory.
 2. Run the following command:
    ```bash
    php -S localhost:8000
